@@ -27,10 +27,15 @@ Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.\
 The page will reload when you make changes.
 
+### Resources/Documentations Referenced
+[React - State Hooks](https://react.dev/reference/react/hooks)\
+[Papaparse - CSV Parsing](https://www.papaparse.com/docs#config)\
+[Recharts - Bar Chart](https://recharts.github.io/en-US/api/BarChart/)
+
 ### Future Implementations 
 - More complex webapp: multipage, incorporating a backend, providing results in a downloadable-format (ex: pdf)
 - Make UI more cohesive to Arpari's homepage style: using the same font, background, buttons style
 - Make the webpage responsive 
 - Conduct unit testing to ensure proper behavior is executed
-- Implement ways to standardize input data. Ex: date formatting
+- Implement ways to validate/standardize input data. Ex: date formatting 
 
