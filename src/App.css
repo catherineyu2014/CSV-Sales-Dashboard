@@ -12,6 +12,33 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+@font-face {
+  font-family: 'Antebas';
+  src: url('/public/fonts/Fontspring-DEMO-antebas-bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Antebas';
+  src: url('/public/fonts/Fontspring-DEMO-antebas-regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  color: #002179;
+  background-color: #cdddf7;
+  font-family: 'Antebas', sans-serif;
+  font-weight: 400; 
+}
+
+h1{
+  font-weight: 700;
+}
+
+p, table, td, th {
+  font-weight: 400; 
+}
 
 .App-header {
   background-color: #282c34;
@@ -27,6 +54,7 @@
 .App-link {
   color: #61dafb;
 }
+
 
 @keyframes App-logo-spin {
   from {
