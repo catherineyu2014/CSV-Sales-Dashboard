@@ -101,7 +101,7 @@ function App() {
   };
 
   return (
-    <div style={{ padding: "40px", fontFamily: "sans-serif" }}>
+    <div style={{ padding: "40px"}}>
       <h1>Arpari CSV Data Dashboard</h1>
       <p>Upload a CSV file with sales data: date, product, quantity, revenue</p>
 
@@ -141,7 +141,7 @@ function App() {
                 {Object.keys(data[0]).map((key) => (
                   <th key={key}
                     style={{
-                      fontFamily: 'Antebas, sans-serif',
+                      fontFamily: 'sans-serif',
                       fontWeight: 700,        
                       textTransform: 'capitalize',    
                     }}>{key}</th>
@@ -164,7 +164,7 @@ function App() {
             <h3>Statistics</h3>
             <div style={{ marginLeft: "30px" }}>
               <p>
-                <t><strong>Total Revenue:</strong> </t>${stats.totalRevenue.toFixed(2)}
+                <strong>Total Revenue: </strong>${stats.totalRevenue.toFixed(2)}
               </p>
               <p>
                 <strong>Total Quantity Sold:</strong> {stats.totalQuantity}
