@@ -37,5 +37,5 @@ The page will reload when you make changes.
 - Make UI more cohesive to Arpari's homepage style: using the same font, background, buttons style
 - Make the webpage responsive 
 - Conduct unit testing to ensure proper behavior is executed
-- Implement ways to validate/standardize input data. Ex: date formatting 
+- Implement ways to validate/standardize input data. Ex: date formatting, column headers case sensitivity
 
